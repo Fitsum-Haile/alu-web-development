@@ -1,0 +1,42 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+
+body {
+    background-color: #e6e6fa;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+}
+
