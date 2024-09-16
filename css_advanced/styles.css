@@ -129,7 +129,8 @@ nav a:hover {
 }
 
 .quote-image img {
-    width: 100%; /* Make quote image fill container width */
+    width: 100%; 
+    border-radius: 100%;
 }
 
 .quote-content {
@@ -166,8 +167,11 @@ nav a:hover {
 .video img {
     width: 100%;
     margin-bottom: 10px;
+    
 }
-
+.videos h2 {
+    text-align: center;
+  }
 .video h3 {
     font-size: 1.2em;
     margin-bottom: 5px;
@@ -375,3 +379,74 @@ footer p {
     }
 }
 
+.tutorials-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tutorial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .tutorial {
+    width: 20%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .thumbnail {
+    position: relative;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: url('https://static.vecteezy.com/system/resources/previews/028/837/162/non_2x/play-button-logo-icon-free-png.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+  }
+  
+  .tutorial h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .tutorial p {
+    font-size: 0.9em;
+    color: #555;
+    padding: 0 10px;
+  }
+  
+  .tutorial footer {
+    font-size: 0.8em;
+    color: #888;
+    padding: 10px;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px;
+  }
+  
+  .rating span:first-child {
+    color: gold;
+  }
+  
+  .rating span:last-child {
+    color: #888;
+  }
+  
